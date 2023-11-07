@@ -1,6 +1,8 @@
-## unreleased
+## 0.0.1 (2023-11-07)
+
+Initial release.
 
 ### Added
-### Changed
-### Fixed
-### Removed
+
+- Add `to_string`, which renders the contents of a `Pp.t` without trailing
+  whitespaces.
