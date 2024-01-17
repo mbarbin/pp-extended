@@ -18,7 +18,6 @@
 (package
  (name pp-extended)
  (synopsis "Adding a few functions to Pp")
- (description "Adding a few functions to Pp")
  (depends
   (ocaml
    (>= 5.1))
