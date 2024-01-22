@@ -8,7 +8,7 @@ homepage: "https://github.com/mbarbin/pp-extended"
 doc: "https://mbarbin.github.io/pp-extended/"
 bug-reports: "https://github.com/mbarbin/pp-extended/issues"
 depends: [
-  "dune" {>= "3.12"}
+  "dune" {>= "3.13"}
   "ocaml" {>= "5.1"}
   "base" {>= "v0.16" & < "v0.17"}
   "expect_test_helpers_core" {with-test & >= "v0.16" & < "v0.17"}
