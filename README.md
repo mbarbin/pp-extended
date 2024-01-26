@@ -1,7 +1,7 @@
 # pp-extended
 
 [![CI Status](https://github.com/mbarbin/pp-extended/workflows/ci/badge.svg)](https://github.com/mbarbin/pp-extended/actions/workflows/ci.yml)
-[![Coverage Status](https://coveralls.io/repos/github/mbarbin/pp-extended/badge.svg?branch=main&service=github)](https://coveralls.io/github/mbarbin/pp-extended?branch=main)
+[![Coverage Status](https://coveralls.io/repos/github/mbarbin/pp-extended/badge.svg?branch=main)](https://coveralls.io/github/mbarbin/pp-extended?branch=main)
 
 This library adds a few functions to the
 [pp](https://opam.ocaml.org/packages/pp/) package to be used by projects
