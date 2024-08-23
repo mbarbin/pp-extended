@@ -1,5 +1,6 @@
 (library
  (name pp_extended_test)
+ (public_name pp-extended-tests.pp_extended_test)
  (flags
   :standard
   -w
@@ -9,8 +10,12 @@
   -open
   Base
   -open
-  Expect_test_helpers)
- (libraries base expect-test-helpers pp pp_extended)
+  Expect_test_helpers_base)
+ (libraries
+  base
+  expect_test_helpers_core.expect_test_helpers_base
+  pp
+  pp_extended)
  (inline_tests)
  (instrumentation
   (backend bisect_ppx))
