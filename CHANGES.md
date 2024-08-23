@@ -1,3 +1,17 @@
+## 0.0.7 (unreleased)
+
+### Added
+
+### Changed
+
+- Use `expect_test_helpers_core.expect_test_helpers_base`.
+
+### Deprecated
+
+### Fixed
+
+### Removed
+
 ## 0.0.6 (2024-07-26)
 
 ### Added
