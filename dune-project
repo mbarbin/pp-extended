@@ -25,10 +25,6 @@
    (and
     (>= v0.17)
     (< v0.18)))
-  (bisect_ppx
-   (and
-    :dev
-    (>= 2.8.3)))
   (pp
    (>= 1.2.0))
   (ppx_compare
@@ -45,11 +41,6 @@
     (< v0.18)))
   (ppx_here
    (and
-    (>= v0.17)
-    (< v0.18)))
-  (ppx_js_style
-   (and
-    :dev
     (>= v0.17)
     (< v0.18)))
   (ppx_let
@@ -73,13 +64,17 @@
  (depends
   (ocaml
    (>= 5.2))
+  (ocamlformat
+   (and
+    :with-dev-setup
+    (= 0.26.2)))
   (base
    (and
     (>= v0.17)
     (< v0.18)))
   (bisect_ppx
    (and
-    :dev
+    :with-dev-setup
     (>= 2.8.3)))
   (expect_test_helpers_core
    (and
@@ -109,7 +104,7 @@
     (< v0.18)))
   (ppx_js_style
    (and
-    :dev
+    :with-dev-setup
     (>= v0.17)
     (< v0.18)))
   (ppx_let
