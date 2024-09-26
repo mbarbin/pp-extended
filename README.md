@@ -13,7 +13,7 @@ The intended usage is to refer to the module `Pp_extended` alongside `Pp`
 for the needed bits, and keep on simply using `Pp` as usual when no extended
 functionality is required.
 
-## Code documentation
+## Code Documentation
 
 The code documentation of the latest release is built with `odoc` and published
 to `GitHub` pages [here](https://mbarbin.github.io/pp-extended).
