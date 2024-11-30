@@ -15,6 +15,8 @@
 
 (documentation "https://mbarbin.github.io/pp-extended/")
 
+(implicit_transitive_deps false)
+
 (package
  (name pp-extended)
  (synopsis "Adding a few functions to Pp")
