@@ -12,14 +12,16 @@ let%expect_test "to_string" =
      output. *)
   let str = Stdlib.Format.asprintf "%a" Pp.to_fmt pp in
   show_string str;
-  [%expect {|
+  [%expect
+    {|
     "Hello,\n  \n  World!"
     Hello,
 
       World! |}];
   (* If you use [Pp_extended], the trailing white spaces are trimmed. *)
   show_string (Pp_extended.to_string pp);
-  [%expect {|
+  [%expect
+    {|
     "Hello,\n\n  World!\n"
     Hello,
 
