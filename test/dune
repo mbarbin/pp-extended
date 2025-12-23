@@ -1,34 +1,12 @@
 (library
  (name pp_extended_test)
  (public_name pp-extended-tests.pp_extended_test)
- (flags
-  :standard
-  -w
-  +a-4-40-41-42-44-45-48-66
-  -warn-error
-  +a
-  -open
-  Base
-  -open
-  Expect_test_helpers_base)
- (libraries
-  base
-  expect_test_helpers_core.expect_test_helpers_base
-  pp
-  pp_extended)
+ (flags :standard -w +a-4-40-41-42-44-45-48-66 -warn-error +a)
+ (libraries pp pp_extended)
  (inline_tests)
  (instrumentation
   (backend bisect_ppx))
  (lint
   (pps ppx_js_style -allow-let-operators -check-doc-comments))
  (preprocess
-  (pps
-   -unused-code-warnings=force
-   ppx_compare
-   ppx_enumerate
-   ppx_expect
-   ppx_hash
-   ppx_here
-   ppx_let
-   ppx_sexp_conv
-   ppx_sexp_value)))
+  (pps ppx_expect)))
