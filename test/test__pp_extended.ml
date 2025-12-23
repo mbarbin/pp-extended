@@ -5,12 +5,12 @@ let%expect_test "to_string" =
       (Pp.concat [ Pp.text "Hello,"; Pp.newline; Pp.newline; Pp.text "World!" ])
   in
   let show_string str =
-    print_s [%sexp (str : string)];
+    Printf.printf "%S\n" str;
     print_endline str
   in
   (* If you simply uses [Pp], you'll end up with trailing white spaces in the
      output. *)
-  let str = Stdlib.Format.asprintf "%a" Pp.to_fmt pp in
+  let str = Format.asprintf "%a" Pp.to_fmt pp in
   show_string str;
   [%expect
     {|
