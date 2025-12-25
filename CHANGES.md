@@ -1,16 +1,17 @@
-## 0.0.7 (unreleased)
+## 0.0.7 (2025-12-25)
 
 ### Added
 
+- Added `render` (#, @mbarbin).
+
 ### Changed
 
-- Use `expect_test_helpers_core.expect_test_helpers_base`.
+- Make `to_string` now only trim blank chars (#, @mbarbin).
+- Reduce overall project dependencies (#, @mbarbin).
 
 ### Deprecated
 
-### Fixed
-
-### Removed
+- Deprecate `to_string` and rename `render` (#, @mbarbin).
 
 ## 0.0.6 (2024-07-26)
 
