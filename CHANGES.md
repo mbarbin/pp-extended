@@ -2,16 +2,16 @@
 
 ### Added
 
-- Added `render` (#, @mbarbin).
+- Added `render` (#5, @mbarbin).
 
 ### Changed
 
-- Make `to_string` now only trim blank chars (#, @mbarbin).
-- Reduce overall project dependencies (#, @mbarbin).
+- Make `to_string` now only trim blank chars (#5, @mbarbin).
+- Reduce overall project dependencies (#5, @mbarbin).
 
 ### Deprecated
 
-- Deprecate `to_string` and rename `render` (#, @mbarbin).
+- Deprecate `to_string` and rename `render` (#5, @mbarbin).
 
 ## 0.0.6 (2024-07-26)
 
