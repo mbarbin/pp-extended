@@ -1,3 +1,9 @@
+(****************************************************************************)
+(*  pp-extended: Adding a few functions to Pp                               *)
+(*  SPDX-FileCopyrightText: 2023 Mathieu Barbin <mathieu.barbin@gmail.com>  *)
+(*  SPDX-License-Identifier: MIT                                            *)
+(****************************************************************************)
+
 module Pp = struct
   include Pp
 
