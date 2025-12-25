@@ -10,7 +10,6 @@ bug-reports: "https://github.com/mbarbin/pp-extended/issues"
 depends: [
   "dune" {>= "3.17"}
   "ocaml" {>= "5.2"}
-  "base" {>= "v0.17"}
   "pp" {>= "2.0.0"}
   "odoc" {with-doc}
 ]
